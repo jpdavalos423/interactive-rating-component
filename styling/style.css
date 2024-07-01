@@ -31,6 +31,7 @@ body {
   align-items: center;
   width: 100%;
   padding: 2rem;
+  max-width: 375px;
 }
 
 header img {
@@ -53,18 +54,43 @@ header p {
 
 .rating-card {
   width: 100%;
-  /* align-items: center; */
-}
-
-.rating-choices {
-  margin: 2rem 0;
-  text-align: center;
 }
 
 .rating-card button {
   font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+
   width: 100%;
   background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 12%, 8%);
   border-radius: 36rem;
-  padding: 1rem 0;
+  padding: 1.2rem 0;
+}
+
+.rating-choices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.rating-choices input[type="radio"] {
+  display: none;
+}
+
+.rating-choices label {
+  position: relative;
+  color: hsl(217, 12%, 63%);
+  background-color: hsla(217, 12%, 63%, 0.1);
+  border-radius: 360px;
+  padding: 12px;
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
