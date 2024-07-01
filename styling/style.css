@@ -52,22 +52,6 @@ header p {
   line-height: 1.5;
 }
 
-.rating-card {
-  width: 100%;
-}
-
-.rating-card button {
-  font-family: inherit;
-  font-weight: 700;
-  letter-spacing: 0.2rem;
-
-  width: 100%;
-  background-color: hsl(25, 97%, 53%);
-  color: hsl(216, 12%, 8%);
-  border-radius: 36rem;
-  padding: 1.2rem 0;
-}
-
 .rating-choices {
   display: flex;
   flex-direction: row;
@@ -93,4 +77,40 @@ header p {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: 0.1s linear;
+}
+
+.rating-choices label:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 12%, 8%);
+}
+
+.rating-choices input:checked + .choice-label {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(216, 12%, 8%);
+}
+
+.rating-card {
+  width: 100%;
+}
+
+.rating-card button {
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 12%, 8%);
+  border-radius: 36rem;
+  padding: 1.2rem 0;
+
+  transition: 0.1s ease-in-out;
+}
+
+.rating-card button:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
 }
