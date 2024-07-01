@@ -24,12 +24,32 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Rating state start -->
+    <main class="card-wrapper">
+      <header class="rating-card-header">
+        <img src="./images/icon-star.svg" alt="" />
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+      </header>
 
-    How did we do? Please let us know how we did with your support request. All
-    feedback is appreciated to help us improve our offering! 1 2 3 4 5 Submit
+      <form class="rating-card" action="">
+        <div class="rating-choices">
+          <input type="radio" name="options" value="1" id="choice-1" />
+          <input type="radio" name="options" value="2" id="choice-2" />
+          <input type="radio" name="options" value="3" id="choice-3" />
+          <input type="radio" name="options" value="4" id="choice-4" />
+          <input type="radio" name="options" value="5" id="choice-5" />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
 
     <!-- Rating state end -->
 
@@ -42,11 +62,13 @@
 
     <!-- Thank you state end -->
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">JP Davalos</a>.
+      </div>
+    </footer>
   </body>
 </html>
