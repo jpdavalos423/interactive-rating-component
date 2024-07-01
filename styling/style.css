@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Overpass";
+  src: url(../fonts/Overpass/Overpass-VariableFont_wght.ttf);
+}
+
+html {
+  font-family: "Overpass";
+}
+
+* {
+  font-size: 15px;
+  font-weight: 400;
+}
