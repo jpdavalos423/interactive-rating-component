@@ -144,6 +144,12 @@ header p {
   display: none;
 }
 
+.attribution {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 99%;
+}
+
 @media (min-width: 768px) {
   .thank-you-card-wrapper,
   .rating-card-wrapper {
@@ -168,10 +174,4 @@ header p {
   .thank-you-card-wrapper span:not(#rating) {
     padding: 0.3rem 1.5rem;
   }
-}
-
-.attribution {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 99%;
 }
