@@ -32,7 +32,7 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   width: 100%;
-  padding: 2rem 1.52rem;
+  padding: 3rem 1.52rem;
   max-width: 40rem;
   margin-bottom: 1rem;
 }
@@ -129,7 +129,7 @@ header p {
 .thank-you-card-wrapper span:not(#rating) {
   color: hsl(25, 97%, 53%);
   background-color: hsla(217, 12%, 63%, 0.1);
-  padding: 0.75rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 3.6rem;
 }
 
@@ -148,7 +148,7 @@ header p {
 @media (min-width: 768px) {
   .thank-you-card-wrapper,
   .rating-card-wrapper {
-    padding: 3rem;
+    padding: 4rem 3rem;
     border-radius: 2.5rem;
   }
 
@@ -164,5 +164,9 @@ header p {
     padding: 1.2rem;
     width: 5rem;
     height: 5rem;
+  }
+
+  .thank-you-card-wrapper span:not(#rating) {
+    padding: 0.3rem 1.5rem;
   }
 }
