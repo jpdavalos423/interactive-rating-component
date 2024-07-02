@@ -23,7 +23,8 @@ body {
   margin: 0 2.5rem;
 }
 
-.card-wrapper {
+.thank-you-card-wrapper,
+.rating-card-wrapper {
   background-color: hsl(213, 19%, 18%);
   border-radius: 1.5rem;
   display: flex;
@@ -42,12 +43,15 @@ header img {
   height: 4.5rem;
 }
 
+.thank-you-card-wrapper h2,
 header h1 {
+  color: hsl(0, 0%, 100%);
   margin: 2rem 0;
   font-size: 2.4rem;
   font-weight: 700;
 }
 
+.thank-you-card-wrapper,
 header p {
   color: hsl(217, 12%, 63%);
   line-height: 1.5;
@@ -114,4 +118,23 @@ header p {
 .rating-card button:hover {
   cursor: pointer;
   background-color: hsl(0, 0%, 100%);
+}
+
+.thank-you-card-wrapper img {
+  margin-bottom: 20px;
+}
+
+.thank-you-card-wrapper span {
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(217, 12%, 63%, 0.1);
+  padding: 5px;
+  border-radius: 360px;
+}
+
+.thank-you-card-wrapper p {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
 }

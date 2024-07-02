@@ -30,7 +30,7 @@
   </head>
   <body>
     <!-- Rating state start -->
-    <main class="card-wrapper">
+    <main class="rating-card-wrapper">
       <header id="rating-card-header">
         <img src="./images/icon-star.svg" alt="star-icon" />
         <h1>How did we do?</h1>
@@ -56,16 +56,24 @@
         <button type="submit">SUBMIT</button>
       </form>
     </main>
-
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
+    <div class="thank-you-card-wrapper hidden">
+      <img src="./images/illustration-thank-you.svg" alt="thank-you-image" />
+      <span>
+        You selected
+        <!-- Add rating here -->
+        <span id="rating"></span>
+        out of 5
+      </span>
 
-    You selected
-    <!-- Add rating here -->
-    out of 5 Thank you! We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch!
-
+      <h2>Thank you!</h2>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+    </div>
     <!-- Thank you state end -->
 
     <footer>
