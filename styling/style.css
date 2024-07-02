@@ -25,14 +25,14 @@ body {
 
 .thank-you-card-wrapper,
 .rating-card-wrapper {
-  font-size: 15px;
+  font-size: 1.5rem;
   background-color: hsl(213, 19%, 18%);
-  border-radius: 2.5rem;
+  border-radius: 2rem;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   width: 100%;
-  padding: 3rem;
+  padding: 1.52rem;
   max-width: 40rem;
   margin-bottom: 1rem;
 }
@@ -78,8 +78,8 @@ header p {
   background-color: hsla(217, 12%, 63%, 0.1);
   border-radius: 36rem;
   padding: 1.2rem;
-  width: 5rem;
-  height: 5rem;
+  width: 4.5rem;
+  height: 4.5rem;
 
   display: flex;
   justify-content: center;
@@ -123,14 +123,14 @@ header p {
 }
 
 .thank-you-card-wrapper img {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .thank-you-card-wrapper span {
   color: hsl(25, 97%, 53%);
   background-color: hsla(217, 12%, 63%, 0.1);
-  padding: 7.5px 15px;
-  border-radius: 360px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 3.6rem;
 }
 
 .thank-you-card-wrapper p {
@@ -143,4 +143,26 @@ header p {
 
 .hidden {
   display: none;
+}
+
+@media (min-width: 768px) {
+  .thank-you-card-wrapper,
+  .rating-card-wrapper {
+    padding: 3rem;
+    border-radius: 2.5rem;
+  }
+
+  header img {
+    margin-bottom: 1rem;
+  }
+
+  .rating-card button {
+    margin-top: 1rem;
+  }
+
+  .rating-choices label {
+    padding: 1.2rem;
+    width: 5rem;
+    height: 5rem;
+  }
 }
