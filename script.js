@@ -7,7 +7,6 @@ ratingForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const rating = parseInt(event.target.options.value);
-  console.log(`rating: ${rating}`);
   ratingFeedback.innerHTML = rating;
 
   ratingCard.style.display = "none";
