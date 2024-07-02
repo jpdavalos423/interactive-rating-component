@@ -32,7 +32,7 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   width: 100%;
-  padding: 1.52rem;
+  padding: 2rem 1.52rem;
   max-width: 40rem;
   margin-bottom: 1rem;
 }
@@ -48,7 +48,7 @@ header img {
 .thank-you-card-wrapper h2,
 header h1 {
   color: hsl(0, 0%, 100%);
-  margin: 2rem 0;
+  margin: 3rem 0 1rem 0;
   font-size: 2.8rem;
   font-weight: 700;
 }
@@ -123,10 +123,10 @@ header p {
 }
 
 .thank-you-card-wrapper img {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
-.thank-you-card-wrapper span {
+.thank-you-card-wrapper span:not(#rating) {
   color: hsl(25, 97%, 53%);
   background-color: hsla(217, 12%, 63%, 0.1);
   padding: 0.75rem 1.5rem;
